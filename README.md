@@ -22,7 +22,7 @@ Paste the below code in the `pom.xml` file:
             <artifactId>formatter-maven-plugin</artifactId>
             <version>2.13.0</version>
             <configuration>
-                <configFile>https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.0/java/eclipse-java-seudev-style.xml</configFile>
+                <configFile>https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.1/java/eclipse-java-seudev-style.xml</configFile>
                 <overrideConfigCompilerVersion>true</overrideConfigCompilerVersion>
                 <lineEnding>LF</lineEnding>
             </configuration>
@@ -40,7 +40,7 @@ Paste the below code in the `pom.xml` file:
 
 For more details, see the [documentation](https://code.revelc.net/formatter-maven-plugin).
 
-**Note**: If you have network restrictions, then download the [eclipse-java-seudev-style.xml](https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.0/java/eclipse-java-seudev-style.xml)
+**Note**: If you have network restrictions, then download the [eclipse-java-seudev-style.xml](https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.1/java/eclipse-java-seudev-style.xml)
 file and put the file path in the `configFile` tag (e.g `${project.basedir}/eclipse-java-seudev-style.xml`).
 
 #### VSCode
@@ -49,15 +49,15 @@ Set the following properties, in the **settings.json** file:
 
 ```json
 "java.format.settings.profile": "Seudev's Style",
-"java.format.settings.url": "https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.0/java/eclipse-java-seudev-style.xml"
+"java.format.settings.url": "https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.1/java/eclipse-java-seudev-style.xml"
 ```
 
-**Note**: If you have network restrictions, then download the [eclipse-java-seudev-style.xml](https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.0/java/eclipse-java-seudev-style.xml) file
+**Note**: If you have network restrictions, then download the [eclipse-java-seudev-style.xml](https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.1/java/eclipse-java-seudev-style.xml) file
 and put the file path in the `java.format.settings.url` property (e.g. `file://path/to/eclipse-java-seudev-style.xml`).
 
 #### Eclipse
 
-1. Download the [eclipse-java-seudev-style.xml](https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.0/java/eclipse-java-seudev-style.xml) file;
+1. Download the [eclipse-java-seudev-style.xml](https://raw.githubusercontent.com/seudev/seudev-style-guide/v1.0.1/java/eclipse-java-seudev-style.xml) file;
 2. In eclipse, click `Window` > `Preferences` > `Java` > `Code Style` > `Formatter`, then click on the `Import...` button and select the `eclipse-java-seudev-style.xml` file.
 
 ## Licensing
